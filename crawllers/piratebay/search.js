@@ -12,7 +12,7 @@ async function search(search, site = PIRATEBAY_SITE) {
     await page.goto(site.replace("{term}", search));
 
     var searchResults = await page.evaluate(async () => {
-      var searchResults = document.querySelector("div#SearchResults");
+      var searchResults = document.querySelector("table#searchResult");
       if (!searchResults) {
         return { error: true, errorMessage: "No results found" };
       }
