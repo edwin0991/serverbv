@@ -2,7 +2,7 @@
   "name": "aio-bot",
   "description": "All in one bot",
   "repository": "https://github.com/edwin0991/serverbv/",
-  "keywords": ["node", "express", "bot", , "automation"],
+  "keywords": ["node", "express", "bot","automation"],
   "builpacks": [
     { "url": "heroku/nodejs" },
     { "url": "https://github.com/jontewks/puppeteer-heroku-buildpack.git" }
