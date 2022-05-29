@@ -1,7 +1,7 @@
 {
-  "name": "torrent-bot",
+  "name": "bot",
   "version": "1.0.0",
-  "description": "Torrent bot for downloading and searching torrents",
+  "description": " bot for downloading and searching ",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
